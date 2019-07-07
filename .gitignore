@@ -196,4 +196,7 @@
 
      # End of https://www.gitignore.io/api/node,windows,webstorm
 
+     .idea
+     node_modules/
      dist/
+     package-lock.json
