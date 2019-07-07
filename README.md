@@ -1,2 +1,5 @@
 # Zegraph
-Zenofa GraphQL Framework
+**Zenofa GraphQL Framework**
+
+Simple framework to facilitate the use of GraphQL and Typescript in the Zenofa project
+
