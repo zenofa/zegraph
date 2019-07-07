@@ -1,6 +1,4 @@
 import { IResolvers } from "graphql-tools"
-import {User as UserModel} from "../../Models/User"
-import * as argon2 from 'argon2'
 import {userController} from "../../Controllers/Http/UserController"
 export const UserResolver:IResolvers = {
     Date: Date,
@@ -13,12 +11,9 @@ export const UserResolver:IResolvers = {
         }
     },
     Mutation:{
-        async register_user(_,{full_name,email,password}){
-            let user = new UserModel()
-            user.full_name = full_name
-            user.email = email
-            user.password = await argon2.hash(password)
-            return await user.save()
+        //params full_name,email,password
+        async register_user(_,params){
+            return await userController.addUser(params)
         }
     }
 }
