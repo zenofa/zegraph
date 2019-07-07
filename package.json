@@ -1,5 +1,5 @@
 {
-  "name": "zegraph",
+  "name": "@zenofa/zegraph",
   "version": "1.0.0",
   "description": "Zenofa GraphQL Framework",
   "main": "./dist/server.js",
@@ -27,7 +27,6 @@
     "@types/lodash": "^4.14.123",
     "@types/moment": "^2.13.0",
     "@types/qs": "^6.5.3",
-    "@zenofa/tokopedia": "^1.0.4",
     "apollo-server-express": "^2.4.8",
     "argon2": "^0.23.0",
     "axios": "^0.19.0",
