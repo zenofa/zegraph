@@ -1,6 +1,6 @@
 {
   "name": "@zenofa/zegraph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zenofa GraphQL Framework",
   "main": "./dist/server.js",
   "scripts": {
