@@ -1,2 +1,2 @@
-# zegraph
+# ZeGraph
 Zenofa GraphQL Framework
